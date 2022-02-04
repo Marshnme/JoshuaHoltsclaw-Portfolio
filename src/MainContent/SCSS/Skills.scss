@@ -1,6 +1,7 @@
 .Skills-container {
   display: flex;
-  justify-content: space-around;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
   align-items: center;
   height: 85vh;
   width: 100%;
@@ -8,12 +9,15 @@
 
 .Basic-intro {
   text-align: center;
-  min-width: 50%;
-  margin-bottom: 10em;
+  min-width: 60%;
+  margin-top: 5em;
+}
+
+.Skills-swapper {
+  margin-top: 1em;
 }
 
 .Skills-list {
-  margin-top: 10em;
   display: flex;
   justify-content: space-between;
   flex-flow: column nowrap;
