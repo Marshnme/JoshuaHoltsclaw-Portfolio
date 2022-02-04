@@ -1,9 +1,19 @@
-import './App.css';
+import './App.scss';
 import NavBar from './Nav/NavBar';
+import MainContent from './MainContent/MainContent'
+import {Routes,Route} from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
+    <div className="App-container">
       <NavBar/>
+      <MainContent/>
+      <Routes>
+        {/* Routes for Projects eventually */}
+        {/* <Route path="/" element={<App/>}/>
+        <Route path="" element={</>}/>
+        <Route path="" element={</>}/>
+        <Route path="" element={</>}/> */}
+      </Routes>
     </div>
   );
 }

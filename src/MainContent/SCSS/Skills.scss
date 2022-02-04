@@ -1,0 +1,21 @@
+.Skills-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85vh;
+  width: 100%;
+}
+
+.Basic-intro {
+  text-align: center;
+  min-width: 50%;
+  margin-bottom: 10em;
+}
+
+.Skills-list {
+  margin-top: 10em;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column nowrap;
+  min-width: 30%;
+}
