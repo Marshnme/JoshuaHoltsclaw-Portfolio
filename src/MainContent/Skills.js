@@ -1,8 +1,26 @@
-
+import "./SCSS/Skills.scss"
 
 const Skills = () =>{
     return(
-        <h1>skills</h1>
+        <section className="Skills-container">
+            <div className="Basic-intro">
+                <h2>Joshua Holtsclaw</h2>
+                <p>Creating websites for my career and for fun</p>
+                <span>Github Link</span>
+
+            </div>
+            <div className="Skills-list">
+                <div>
+                    <p>HTML5</p>
+                    <p>CSS3</p>
+                </div>
+                <div>
+                    <p>JavaScript</p>
+                    <p>React</p>
+                </div>
+                
+            </div>
+        </section>
     )
 }
 
