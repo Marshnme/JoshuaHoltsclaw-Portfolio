@@ -10,7 +10,11 @@ const Skills = () =>{
                 <span>Github Link</span>
 
             </div>
-            <div className="Skills-list">
+            <div className="Skills-swapper">
+                <button> Skills   </button>
+                <button>About</button>
+            </div>
+            {/* <div className="Skills-list">
                 <div>
                     <p>HTML5</p>
                     <p>CSS3</p>
@@ -20,7 +24,7 @@ const Skills = () =>{
                     <p>React</p>
                 </div>
                 
-            </div>
+            </div> */}
         </section>
     )
 }
