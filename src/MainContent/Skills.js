@@ -41,18 +41,11 @@ const Skills = () =>{
             </div>
         </div>
     :
-        <section>
+        <section className="About-section">
             <h1>THANK FUCKs</h1>
         </section>
     }
         </section>
-            
-
-        /* <section>
-            <h1>about</h1>
-        </section> */
-                    
-    
     )
 }
 
