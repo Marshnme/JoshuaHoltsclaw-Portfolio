@@ -17,7 +17,7 @@ const Skills = () =>{
             <div className="Skills-list">
                 <div className="Single-skill">
                     <p>HTML5</p>
-                    <img className="Lang-svgs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                    <img className="Lang-svgs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
 
                 </div>
                 <div className="Single-skill">
