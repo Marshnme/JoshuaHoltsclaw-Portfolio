@@ -14,17 +14,26 @@ const Skills = () =>{
                 <button> Skills   </button>
                 <button>About</button>
             </div>
-            {/* <div className="Skills-list">
-                <div>
+            <div className="Skills-list">
+                <div className="Single-skill">
                     <p>HTML5</p>
+                    <img className="Lang-svgs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+
+                </div>
+                <div className="Single-skill">
                     <p>CSS3</p>
+                    <img className="Lang-svgs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
                 </div>
-                <div>
+                <div className="Single-skill">
                     <p>JavaScript</p>
-                    <p>React</p>
+                    <img className="Lang-svgs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+
                 </div>
-                
-            </div> */}
+                <div className="Single-skill">
+                    <p>React</p>
+                    <img className="Lang-svgs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+                </div>
+            </div>
         </section>
     )
 }

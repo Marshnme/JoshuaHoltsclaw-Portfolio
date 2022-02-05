@@ -3,8 +3,8 @@
   flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: center;
-  height: 85vh;
   width: 100%;
+  height:60em;
 }
 
 .Basic-intro {
@@ -20,6 +20,18 @@
 .Skills-list {
   display: flex;
   justify-content: space-between;
-  flex-flow: column nowrap;
-  min-width: 30%;
+  flex-flow: row nowrap;
+  width:80%;
+  margin-top:5em;
+}
+
+.Single-skill{
+  display:flex;
+  flex-flow:column nowrap;
+  align-items: center;
+}
+
+.Lang-svgs{
+  width:40%;
+
 }
