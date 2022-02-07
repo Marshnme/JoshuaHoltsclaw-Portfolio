@@ -5,7 +5,7 @@ import {Routes,Route} from 'react-router-dom';
 function App() {
   return (
     <>
-    <div className="stars"></div> 
+    <div className="stars"></div>
     <div className="twinkling"></div>
     <div className="App-container"> 
     
@@ -20,7 +20,6 @@ function App() {
       </Routes> */}
       
     </div>
-   
     </>
   );
 }
