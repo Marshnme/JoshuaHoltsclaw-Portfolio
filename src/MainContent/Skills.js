@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import "./SCSS/Skills.scss"
+import About from './About';
 
 const Skills = () =>{
 
@@ -42,7 +43,7 @@ const Skills = () =>{
         </div>
     :
         <section className="About-section">
-            <h1>THANK FUCKs</h1>
+            <About/>
         </section>
     }
         </section>
