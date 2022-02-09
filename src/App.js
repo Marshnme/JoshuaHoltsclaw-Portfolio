@@ -5,20 +5,22 @@ import {Routes,Route} from 'react-router-dom';
 function App() {
   return (
     <>
-    <div className="stars"></div>
-    <div className="twinkling"></div>
+    <div className="stars">
+    <div className="twinkling">
     <div className="App-container"> 
-    
+ 
       <NavBar/>
       <MainContent/>
       
-      {/* <Routes>
+      {/* <Routes>  
         <Route path="/" element={<App/>}/>
         <Route path="" element={</>}/>}/>
         <Route path="" element={</>}/>}/>
         <Route path="" element={</>}/>}/>
       </Routes> */}
       
+    </div>
+    </div>
     </div>
     </>
   );
