@@ -9,12 +9,15 @@ const Projects = () => {
             <div className="Projects-list">
                 <div>
                     <h3>RV NAV</h3>
+                    <img src="../Imgs/wompug.jpg" alt="wompug"/>
                 </div>
                 <div>
                     <h3>Movie Tracker</h3>
+                    <img src="../Imgs/shrek.png"/>
                 </div>
                 <div>
                     <h3>Replate</h3>
+                    <img src="../Imgs/cow.jpg"/>
                 </div>
             </div>
         </section>
