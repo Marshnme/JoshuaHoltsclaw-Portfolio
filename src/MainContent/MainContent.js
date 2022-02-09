@@ -8,7 +8,6 @@ const MainContent = () => {
         <main className="Main-container">
             <Skills/>
             <Projects/>
-            <About/>
         </main>
     )
 }
