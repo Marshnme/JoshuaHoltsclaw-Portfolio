@@ -7,10 +7,17 @@
   height: 60em;
 }
 
+.Ufo-intro-grouping {
+  display: flex;
+  width: 100%;
+  margin-top: 3em;
+  justify-content: space-around;
+  align-items: center;
+}
 .Basic-intro {
   text-align: center;
-  min-width: 60%;
-  margin-top: 5em;
+  min-width: 70%;
+  // margin-top: 5em;
 }
 
 .Skills-swapper {
@@ -35,6 +42,6 @@
   width: 40%;
 }
 
-.About-section{
-  margin-top:5em;
+.About-section {
+  margin-top: 5em;
 }
