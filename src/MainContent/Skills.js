@@ -1,5 +1,8 @@
 import {useState} from 'react';
 import "./SCSS/Skills.scss"
+import About from './About';
+import {ReactComponent as Picture} from "../Imgs/ufo-svgrepo-com.svg"
+
 
 const Skills = () =>{
 
@@ -7,12 +10,16 @@ const Skills = () =>{
      
     return(
         <section className="Skills-container">
-            <div className="Basic-intro">
-                <h2>Joshua Holtsclaw</h2>
-                <span>Front-end Developer</span>
-                <p>Creating websites for my career and for fun</p>
-                <span>Github Link</span>
+            <div className="Ufo-intro-grouping">
+                <svg><Picture/></svg>
+                <div className="Basic-intro">
+                    <h2>Joshua Holtsclaw</h2>
+                    <span>Front-end Developer</span>
+                    <p>Creating websites for my career and for fun</p>
+                    <span>Github Link</span>
+                </div>
             </div>
+            
         <div className="Skills-swapper">
             <button onClick={()=>{setSwitchComp(true)}}>Skills</button>
             <button onClick={()=>{setSwitchComp(false)}}>About</button>
@@ -42,7 +49,7 @@ const Skills = () =>{
         </div>
     :
         <section className="About-section">
-            <h1>THANK FUCKs</h1>
+            <About/>
         </section>
     }
         </section>
