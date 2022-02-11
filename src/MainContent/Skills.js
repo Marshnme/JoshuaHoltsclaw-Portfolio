@@ -2,6 +2,7 @@ import {useState} from 'react';
 import "./SCSS/Skills.scss"
 import About from './About';
 import {ReactComponent as Picture} from "../Imgs/ufo-svgrepo-com.svg"
+import PictureTwo from "../Imgs/GitHub-Mark-Light-32px.png"
 
 
 const Skills = () =>{
@@ -16,7 +17,7 @@ const Skills = () =>{
                     <h2>Joshua Holtsclaw</h2>
                     <span>Front-end Developer</span>
                     <p>Creating websites for my career and for fun</p>
-                    <span>Github Link</span>
+                <img src={PictureTwo}></img>
                 </div>
             </div>
             
