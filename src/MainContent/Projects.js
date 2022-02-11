@@ -56,9 +56,9 @@ const Projects = () => {
                         <img src={project.img} className="Project-img"></img>
                     </div>)
                 })}
+            </div>
                 <button onClick={() => {NextSlide()}} disabled = {activeSlide.index === projects.length - 1}>Previous</button>
                 <button onClick={() => {PreviousSlide()}} disabled = {activeSlide.index === 0}>Next</button>
-            </div>
         </section>
     )
 }
