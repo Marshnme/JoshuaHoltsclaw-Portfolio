@@ -16,12 +16,12 @@
 
 .stars {
   background: #000 url(./Imgs/stars.png) repeat top center;
-  z-index: -2;
+  // z-index: -2;
 }
 
 .twinkling {
   background: transparent url(./Imgs/twinkling.png) repeat top center;
-  z-index: -1;
+  // z-index: -1;
   animation: move-twinkle-back 200s linear infinite;
 }
 
@@ -35,6 +35,7 @@
 }
 
 .App-container {
+  position: relative;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
