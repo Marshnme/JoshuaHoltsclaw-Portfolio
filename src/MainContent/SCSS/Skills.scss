@@ -22,7 +22,14 @@
 }
 
 .Skills-swapper {
-  margin-top: 1em;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.intro-swap-button {
+  padding: 0.5rem 1rem;
 }
 
 .Skills-list {
@@ -30,7 +37,7 @@
   justify-content: space-between;
   flex-flow: row nowrap;
   width: 80%;
-  margin-top: 5em;
+  margin-top: 3rem;
 }
 
 .Single-skill {

@@ -17,13 +17,13 @@ const Skills = () =>{
                     <h2>Joshua Holtsclaw</h2>
                     <span>Front-end Developer</span>
                     <p>Creating websites for my career and for fun</p>
-                <img src={PictureTwo}></img>
+                <a target="_blank" href="https://github.com/Marshnme"><img src={PictureTwo}></img></a>
                 </div>
             </div>
             
         <div className="Skills-swapper">
-            <button onClick={()=>{setSwitchComp(true)}}>Skills</button>
-            <button onClick={()=>{setSwitchComp(false)}}>About</button>
+            <button className="intro-swap-button" onClick={()=>{setSwitchComp(true)}}>Skills</button>
+            <button className="intro-swap-button" onClick={()=>{setSwitchComp(false)}}>About</button>
         </div>
             {switchComp 
             ? 
