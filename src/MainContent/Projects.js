@@ -27,20 +27,20 @@ const Projects = () => {
         },
     ])
 
-    const [activeSlide, setActiveSlide ] = useState(projects[1])
+    // const [activeSlide, setActiveSlide ] = useState(projects[1])
 
 
-    let NextSlide = () =>{
-        const newIndex = activeSlide + 1;
-        setActiveSlide(newIndex);
+    // let NextSlide = () =>{
+    //     const newIndex = activeSlide + 1;
+    //     setActiveSlide(newIndex);
         
-    }
-    let PreviousSlide = () =>{
-        const newIndex = activeSlide - 1;
-        setActiveSlide(newIndex);
+    // }
+    // let PreviousSlide = () =>{
+    //     const newIndex = activeSlide - 1;
+    //     setActiveSlide(newIndex);
         
         
-    }
+    // }
 
     return(
         <section className="Projects-container">
@@ -50,7 +50,7 @@ const Projects = () => {
 
 
             <div className="Project-slider">
-            <div className="Project-slider-wrapper" style={{'transform':`translateX(-${activeSlide.id*(100/projects.length)})`}}>
+            <div className="Project-slider-wrapper">
                 {projects.map(project => {
                     {console.log(project)}
                     return(
@@ -61,8 +61,8 @@ const Projects = () => {
                 })}
                 </div>
             </div>
-                <button onClick={() => {NextSlide()}} disabled = {activeSlide.index === projects.length - 1}>Previous</button>
-                <button onClick={() => {PreviousSlide()}} disabled = {activeSlide.index === 0}>Next</button>
+                {/* <button onClick={() => {NextSlide()}} disabled = {activeSlide.index === projects.length - 1}>Previous</button>
+                <button onClick={() => {PreviousSlide()}} disabled = {activeSlide.index === 0}>Next</button> */}
         </section>
     )
 }
